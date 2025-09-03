@@ -65,7 +65,6 @@ with tab1:
     index=None,
     placeholder="Try AMOXICILLIN...",
 )
-    st.caption(" ")
 
     if st.button("Add Drug to Inventory"):
         if new_drug:
@@ -203,8 +202,14 @@ with tab2:
     email = st.text_input("Email", placeholder="Enter patient's email")
     telephone = st.text_input("Telephone", placeholder="Enter patient's phone number")
 
-    new_medicine = st.selectbox("Choose a medicine to add", [''] + unique_drugs, key="med_select")
-
+    # new_medicine = st.selectbox("Choose a medicine to add", [''] + unique_drugs, key="med_select")
+    new_medicine = st.selectbox(
+    "Choose a medicine to add",
+    [''] + unique_drugs,
+    key="med_select",
+    index=None,
+    placeholder="Try AMOXICILLIN...",
+    )
     # Recommendations
     def update_recommendations():
         for med in st.session_state.medicines:
@@ -218,7 +223,7 @@ with tab2:
                     if med in m and s > 0.03 and not any(d in st.session_state.medicines for d in c)
                 ]
 
-                            # Remove duplicates
+                # Remove duplicates
                 seen = set()
                 unique_recs = []
                 for rec in recs:
