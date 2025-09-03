@@ -84,11 +84,14 @@ with tab1:
 
                 seen = set()
                 unique_recs = []
-                for rec in recommendations:
-                    conseq_tuple = tuple(rec["Consequents"])
-                    if conseq_tuple not in seen:
-                        unique_recs.append(rec)
-                        seen.add(conseq_tuple)
+                # 🔑 deduplicate by individual drug, keep highest support
+                best_recs = {}
+                for r in recommendations:
+                    for drug in r["Consequents"]:  # iterate over each drug in consequents
+                        if (drug not in best_recs) or (r["Support"] > best_recs[drug]["Support"]):
+                            best_recs[drug] = {"Consequents": [drug], "Support": r["Support"]}
+
+                unique_recs = list(best_recs.values())
 
                 if unique_recs:
                     unique_recs = sorted(unique_recs, key=lambda x: x["Support"], reverse=True)
@@ -119,7 +122,7 @@ with tab1:
                         if recommended not in st.session_state.inventory:
                             st.session_state.inventory.append(recommended)
                             st.success(f"{recommended} added to inventory.")
-                            
+
                             # 🔑 generate new recs for this new drug
                             an_list = list(model1["antecedents"])
                             co_list = list(model1["consequents"])
@@ -128,16 +131,19 @@ with tab1:
                             recommendations = [
                                 {"Consequents": list(c), "Support": s}
                                 for m, c, s in zip(an_list, co_list, su_list)
-                                if recommended in m and s > 0.03 and not any(drug in st.session_state.inventory for drug in c)
+                                if recommended in m 
+                                and s > 0.03  
+                                and not any(drug in st.session_state.inventory for drug in c)
                             ]
 
-                            seen = set()
-                            unique_recs = []
+                            # 🔑 deduplicate by consequents, keep highest support
+                            best_recs = {}
                             for r in recommendations:
-                                conseq_tuple = tuple(r["Consequents"])
-                                if conseq_tuple not in seen:
-                                    unique_recs.append(r)
-                                    seen.add(conseq_tuple)
+                                conseq_tuple = tuple(sorted(r["Consequents"]))
+                                if conseq_tuple not in best_recs or r["Support"] > best_recs[conseq_tuple]["Support"]:
+                                    best_recs[conseq_tuple] = r
+
+                            unique_recs = list(best_recs.values())
 
                             if unique_recs:
                                 unique_recs = sorted(unique_recs, key=lambda x: x["Support"], reverse=True)
@@ -150,6 +156,7 @@ with tab1:
                             st.warning(f"{recommended} is already in inventory.")
         else:
             st.warning(f"No recommendations found for {med}.")
+
 
 
     # Current Inventory
