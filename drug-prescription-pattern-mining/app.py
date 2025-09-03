@@ -2,21 +2,28 @@ import streamlit as st
 import pandas as pd
 import pickle
 from fpdf import FPDF
+import os
 
 # ---------------------------
 # Shared Functions
 # ---------------------------
 @st.cache_resource
 def load_model():
-    with open('eclat_association_rules.pkl', 'rb') as file:
+    base_path = os.path.dirname(__file__)
+    file_path = os.path.join(base_path, "eclat_association_rules.pkl")
+    with open(file_path, "rb") as file:
         model = pickle.load(file)
     return pd.DataFrame(model)
 
 @st.cache_resource
 def load_drug_data():
-    data = pd.read_csv('medicine_prescription_records.csv')
+    base_path = os.path.dirname(__file__)
+    file_path = os.path.join(base_path, "medicine_prescription_records.csv")
+    data = pd.read_csv(file_path)
     # Extract unique drug names
-    drug_lists = data['cms_prescription_counts'].apply(lambda x: [drug.strip() for drug in x.split(',')])
+    drug_lists = data['cms_prescription_counts'].apply(
+        lambda x: [drug.strip() for drug in x.split(',')]
+    )
     all_drugs = [drug for sublist in drug_lists for drug in sublist]
     return data, list(set(all_drugs))
 
