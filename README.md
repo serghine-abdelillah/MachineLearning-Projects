@@ -1,3 +1,2 @@
-# Machine Learning 
-
-This repo contains the projects that shape my Ai skills and make innovative ideas 
+#🧠 Machine Learning Projects
+This repository contains a collection of machine learning and data science projects that demonstrate different techniques, workflows, and applications. Each project is built from scratch, following the full pipeline of data preprocessing, analysis, modeling, and evaluation.
