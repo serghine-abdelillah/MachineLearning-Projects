@@ -3,3 +3,4 @@ This repository contains a collection of machine learning and data science proje
 ## 📌 Projects Included
 - **Classification** : Predictive models using logistic regression, decision trees, random forests, and SVM.
 - **Regression** : Predicting continuous values with linear regression, ridge/lasso regression, and gradient boosting.
+- **Clustering** : Unsupervised learning with k-means, hierarchical clustering, and DBSCAN.
