@@ -7,3 +7,6 @@ This repository contains a collection of machine learning and data science proje
 - **Association** : Rule Mining Market basket analysis using Apriori, FP-Growth, and ECLAT.
 - **Data Preprocessing & Feature Engineering** : Handling missing values, outliers, normalization, encoding categorical variables, etc.
 - **Visualization & Insights** : Exploratory data analysis with matplotlib, seaborn, and Plotly.
+# ⚙️ Tech Stack
+
+- **Languages** : Python
