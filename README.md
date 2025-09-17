@@ -11,3 +11,4 @@ This repository contains a collection of machine learning and data science proje
 
 - **Languages** : Python
 - **Libraries** : scikit-learn, pandas, numpy, matplotlib, seaborn, PyECLAT, mlxtend, TensorFlow/PyTorch (for DL tasks)
+- **Tools** : Jupyter Notebook, Git, Streamlit (for interactive dashboards)
