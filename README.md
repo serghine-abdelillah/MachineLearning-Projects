@@ -14,3 +14,4 @@ This repository contains a collection of machine learning and data science proje
 - **Tools** : Jupyter Notebook, Git, Streamlit (for interactive dashboards)
 ## 🎯 Goals
 - Demonstrate understanding of ML workflows from raw data to insights.
+- Apply both classical algorithms and modern techniques.
