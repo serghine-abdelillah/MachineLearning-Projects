@@ -15,3 +15,4 @@ This repository contains a collection of machine learning and data science proje
 ## 🎯 Goals
 - Demonstrate understanding of ML workflows from raw data to insights.
 - Apply both classical algorithms and modern techniques.
+- Build reusable templates for future applied projects.
