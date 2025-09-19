@@ -16,3 +16,6 @@ This repository contains a collection of machine learning and data science proje
 - Demonstrate understanding of ML workflows from raw data to insights.
 - Apply both classical algorithms and modern techniques.
 - Build reusable templates for future applied projects.
+## 🚀 How to Use
+
+1- Clone the repository:
