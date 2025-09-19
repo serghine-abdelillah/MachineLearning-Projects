@@ -18,4 +18,4 @@ This repository contains a collection of machine learning and data science proje
 - Build reusable templates for future applied projects.
 ## 🚀 How to Use
 
-1- Clone the repository:
+**1.** Clone the repository:
