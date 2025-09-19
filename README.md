@@ -19,3 +19,7 @@ This repository contains a collection of machine learning and data science proje
 ## 🚀 How to Use
 
 **1.** Clone the repository: `git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git`.
+**2.** Navigate to a project folder and open the notebook: `jupyter notebook`.
+
+
+Run the cells to reproduce results.
