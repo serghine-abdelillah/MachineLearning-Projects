@@ -47,6 +47,26 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
    ```bash
    git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
    cd drug-prescription-pattern-mining
-2. Create a virtual environment & install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+3. Run the app:
+   ```bash
+   streamlit run app.py
+4. Open in browser:
+   ```bash
+   http://localhost:8501
+---
+📊 Example Workflow
+- **Pharmacy Inventory Optimizer**
+1. Select a drug (e.g., Amoxicillin).
+2. Get suggested complementary drugs to stock.
+3. Add them to inventory with a single click.
+4. Export inventory report as PDF.
+
+- **Doctor Prescription Assistant**
+
+1. Enter patient details.
+2. Add prescribed medicines.
+3. Accept or reject recommendations.
+4. Confirm and download prescription as PDF.
