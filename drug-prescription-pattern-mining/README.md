@@ -74,4 +74,4 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 Pull requests are welcome! Please open an issue first to discuss what you’d like to improve.
 
 ---
-### 🚀 Demo : [Link](https://health-care-assistant.streamlit.app])
+### 🚀 Demo : [Link](https://health-care-assistant.streamlit.app/])
