@@ -47,3 +47,6 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
    ```bash
    git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
    cd drug-prescription-pattern-mining
+2. Create a virtual environment & install dependencies:
+   ```bash
+   pip install -r requirements.txt
