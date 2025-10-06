@@ -30,8 +30,7 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 
 ---
 
-### 🚀Demo : 
-[Link](https://health-care-assistant.streamlit.app/])
+
 
 ## 📂 Project Structure
 📦 healthcare-assistant\
@@ -57,7 +56,7 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
    ```bash
    http://localhost:8501
 ---
-📊 Example Workflow
+## 📊 Example Workflow
 - **Pharmacy Inventory Optimizer**
 1. Select a drug (e.g., Amoxicillin).
 2. Get suggested complementary drugs to stock.
@@ -70,3 +69,9 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 2. Add prescribed medicines.
 3. Accept or reject recommendations.
 4. Confirm and download prescription as PDF.
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+### 🚀Demo : [Link](https://health-care-assistant.streamlit.app/])
