@@ -34,3 +34,9 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 [Link](https://health-care-assistant.streamlit.app/])
 
 ## 📂 Project Structure
+📦 healthcare-assistant
+┣ 📜 app.py # Main Streamlit app
+┣ 📜 eclat_association_rules.pkl # Pre-trained association rules model
+┣ 📜 medicine_prescription_records.csv # Prescription dataset
+┣ 📜 requirements.txt # Dependencies
+┗ 📜 README.md # Project description
