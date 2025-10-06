@@ -40,7 +40,7 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 ┣ 📜 requirements.txt # Dependencies\
 ┗ 📜 README.md # Project description\
 
-## ⚙️ Installation & Usage
+## ⚙️ Usage
 
 1. Clone this repository:
    ```bash
@@ -71,7 +71,7 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 4. Confirm and download prescription as PDF.
 
 ## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+Pull requests are welcome! Please open an issue first to discuss what you’d like to improve.
 
 ---
-### 🚀Demo : [Link](https://health-care-assistant.streamlit.app/])
+### 🚀 Demo : [Link](https://health-care-assistant.streamlit.app/])
