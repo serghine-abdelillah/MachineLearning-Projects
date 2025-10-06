@@ -30,4 +30,7 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 
 ---
 
+### 🚀Demo : 
+[Link](https://health-care-assistant.streamlit.app/])
+
 ## 📂 Project Structure
