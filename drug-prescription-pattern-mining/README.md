@@ -45,5 +45,5 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/serghine/healthcare-assistant.git
-   cd healthcare-assistant
+   git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
+   cd drug-prescription-pattern-mining
