@@ -46,5 +46,5 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/heart-disease-detection.git
-   cd heart-disease-detection
+   git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
+   cd Heart Disease Detection
