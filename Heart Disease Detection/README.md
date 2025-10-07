@@ -32,3 +32,9 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
 ---
 
 ## 📂 Project Structure
+📦 heart-disease-detection\
+┣ 📜 app.py # Main Gradio app\
+┣ 📜 heart.csv # Heart disease dataset\
+┣ 📜 heart_disease_model.pkl # Trained model + scaler + columns\
+┣ 📜 requirements.txt # Dependencies\
+┗ 📜 README.md # Project description\
