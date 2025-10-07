@@ -48,3 +48,14 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
    ```bash
    git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
    cd Heart Disease Detection
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the app:
+   ```bash
+   python app.py
+4. Open in browser:
+   ```bash
+   http://localhost:7860
+---
+
