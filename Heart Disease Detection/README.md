@@ -38,3 +38,13 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
 ┣ 📜 heart_disease_model.pkl # Trained model + scaler + columns\
 ┣ 📜 requirements.txt # Dependencies\
 ┗ 📜 README.md # Project description\
+
+
+---
+
+## ⚙️ Installation & Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/heart-disease-detection.git
+   cd heart-disease-detection
