@@ -61,14 +61,16 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
 
 ## 📊 Example Inputs
 
-Here are some sample patients you can try directly in the app:\
-| Age | Sex | ChestPainType | RestingBP | Cholesterol | FastingBS | RestingECG | MaxHR | ExerciseAngina | Oldpeak | ST_Slope
-|:----|:---:|:-------------:|
-| 40  | M | ATA, 140, 289, 0, Normal, 172, N, 0.0, Up
-| 49  | F | NAP, 160, 180, 0, Normal, 156, N, 1.0, Flat
-| 37  | M | ATA, 130, 283, 0, ST, 98, N, 0.0, Up
-| 48  | F | ASY, 138, 214, 0, Normal, 108, Y, 1.5, Flat
-| 54  | M | NAP, 150, 195, 0, Normal, 122, N, 0.0, Up
+Here are some sample patients you can try directly in the app:\ 
+
+| Age | Sex | ChestPainType | RestingBP | Cholesterol | FastingBS | RestingECG | MaxHR | ExerciseAngina | Oldpeak | ST_Slope |
+|-----|-----|---------------|-----------|-------------|-----------|------------|-------|----------------|---------|----------|
+| 40  | M   | ATA           | 140       | 289         | 0         | Normal     | 172   | N              | 0.0     | Up       |
+| 49  | F   | NAP           | 160       | 180         | 0         | Normal     | 156   | N              | 1.0     | Flat     |
+| 37  | M   | ATA           | 130       | 283         | 0         | ST         | 98    | N              | 0.0     | Up       |
+| 48  | F   | ASY           | 138       | 214         | 0         | Normal     | 108   | Y              | 1.5     | Flat     |
+| 54  | M   | NAP           | 150       | 195         | 0         | Normal     | 122   | N              | 0.0     | Up       |
+
 
 ## 🤝 Contributing
 
