@@ -4,6 +4,8 @@ A **Streamlit-based Healthcare Assistant** that helps optimize pharmacy inventor
 The app leverages **association rule mining** (ECLAT) and real-world prescription data to recommend complementary medicines, improve drug stocking, and generate patient-ready PDF reports.  
 
 ---
+## DEMO : [Link](https://health-care-assistant.streamlit.app/])
+---
 
 ## 🚀 Features
 
@@ -73,5 +75,4 @@ The app leverages **association rule mining** (ECLAT) and real-world prescriptio
 ## 🤝 Contributing
 Pull requests are welcome! Please open an issue first to discuss what you’d like to improve.
 
----
-### 🚀 Demo : [Link](https://health-care-assistant.streamlit.app/])
+
