@@ -48,7 +48,7 @@ The app provides **data exploration (EDA)** tools and a **prediction interface**
 1. Clone this repository:
    ```bash
    git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
-   cd Heart Disease Detection
+   cd HeartDiseaseDetection
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
