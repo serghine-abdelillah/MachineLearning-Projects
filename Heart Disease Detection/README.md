@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Detection
 
-A **Gradio-based web application** for detecting heart disease risk using machine learning.  
+A **Gradio based web application** for detecting heart disease risk using machine learning.  
 The app provides **data exploration (EDA)** tools and a **prediction interface**, allowing users to explore the dataset and test the model with real or sample inputs.  
 
 ---
