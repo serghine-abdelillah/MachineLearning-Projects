@@ -7,5 +7,5 @@ The notebook is divided into several key parts, each building toward understandi
 ## 🚀 Tasks Overview
 
 **1. Dataset Preparation**
-- Import the CIFAR-10 dataset.
-- Retain only 4 classes: airplane, automobile, bird, and cat.
+- Import the **CIFAR-10** dataset.
+- Retain only 4 classes: `airplane`, `automobile`, `bird`, and `cat`.
