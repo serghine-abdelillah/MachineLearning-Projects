@@ -10,3 +10,4 @@ The notebook is divided into several key parts, each building toward understandi
 - Import the **CIFAR-10** dataset.
 - Retain only 4 classes: `airplane`, `automobile`, `bird`, and `cat`.
 **2. Visualization & Normalization**
+- Display random samples with labels.
