@@ -12,3 +12,4 @@ The notebook is divided into several key parts, each building toward understandi
 
 **2. Visualization & Normalization**
 - Display random samples with labels.
+- Normalize pixel values to `[0, 1]`.
