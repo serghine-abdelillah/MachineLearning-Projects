@@ -1,4 +1,4 @@
-# ll🧠 CIFAR-10 Image Clustering and Classification
+# 🧠 CIFAR-10 Image Clustering and Classification
 This notebook demonstrates a complete pipeline for **image preprocessing**, **dimensionality reduction**, and **unsupervised learning** using the **CIFAR-10 dataset**.
 The main goal is to explore how machine learning models (especially clustering methods like **K-Means**) can separate visual classes without supervision and analyze their performance using visualization and evaluation metrics.
 ## 📂 Project Structure
@@ -13,5 +13,8 @@ The notebook is divided into several key parts, each building toward understandi
 **2. Visualization & Normalization**
 - Display random samples with labels.
 - Normalize pixel values to `[0, 1]`.
+
 **3. Dimensionality Reduction**
+- Apply **PCA** with 2 components for 2D visualization.
+- Explore **PCA (95% variance)** and **LDA (3 components)** for feature compression.
   
