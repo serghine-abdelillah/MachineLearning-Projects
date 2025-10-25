@@ -19,5 +19,5 @@ The notebook is divided into several key parts, each building toward understandi
 - Explore **PCA (95% variance)** and **LDA (3 components)** for feature compression.
 
 **4. Clustering Models**
-- Apply K-Means, K-Means + PCA, and K-Means + LDA.
+- Apply **K-Means**, **K-Means + PCA**, and **K-Means + LDA**.
   
