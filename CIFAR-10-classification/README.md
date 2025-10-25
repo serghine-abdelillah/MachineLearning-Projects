@@ -17,4 +17,7 @@ The notebook is divided into several key parts, each building toward understandi
 **3. Dimensionality Reduction**
 - Apply **PCA** with 2 components for 2D visualization.
 - Explore **PCA (95% variance)** and **LDA (3 components)** for feature compression.
+
+**4. Clustering Models**
+
   
