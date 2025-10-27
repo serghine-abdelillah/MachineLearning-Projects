@@ -23,3 +23,5 @@ The notebook is divided into several key parts, each building toward understandi
 - Visualize cluster results in 2D space.
 
 **5. Evaluation**
+- Compute **Davies-Bouldin score** for model comparison.
+- Display **confusion matrices** and **classification reports**.
