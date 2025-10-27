@@ -21,4 +21,5 @@ The notebook is divided into several key parts, each building toward understandi
 **4. Clustering Models**
 - Apply **K-Means**, **K-Means + PCA**, and **K-Means + LDA**.
 - Visualize cluster results in 2D space.
-  
+
+**5. Evaluation**
