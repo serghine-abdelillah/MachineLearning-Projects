@@ -27,3 +27,5 @@ The notebook is divided into several key parts, each building toward understandi
 - Display **confusion matrices** and **classification reports**.
 
 **6. Error Analysis**
+- Visualize **misclassified samples** for the best model.
+- Suggest improvements to enhance model accuracy.
