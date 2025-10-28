@@ -25,3 +25,5 @@ The notebook is divided into several key parts, each building toward understandi
 **5. Evaluation**
 - Compute **Davies-Bouldin score** for model comparison.
 - Display **confusion matrices** and **classification reports**.
+
+**6. Error Analysis**
