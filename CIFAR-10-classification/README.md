@@ -29,3 +29,5 @@ The notebook is divided into several key parts, each building toward understandi
 **6. Error Analysis**
 - Visualize **misclassified samples** for the best model.
 - Suggest improvements to enhance model accuracy.
+
+## 🧩 Technologies Used
