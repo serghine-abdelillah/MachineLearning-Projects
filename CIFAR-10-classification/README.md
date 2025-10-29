@@ -31,3 +31,5 @@ The notebook is divided into several key parts, each building toward understandi
 - Suggest improvements to enhance model accuracy.
 
 ## 🧩 Technologies Used
+- **Python**
+- **NumPy**, **Matplotlib**
