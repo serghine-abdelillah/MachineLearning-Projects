@@ -35,3 +35,5 @@ The notebook is divided into several key parts, each building toward understandi
 - **NumPy**, **Matplotlib**
 - **Scikit-learn** (PCA, K-Means, LDA, metrics)
 - **TensorFlow** / **Keras** (for dataset loading)
+
+## 📊 Key Concepts Covered
