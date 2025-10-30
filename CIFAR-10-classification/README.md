@@ -39,3 +39,5 @@ The notebook is divided into several key parts, each building toward understandi
 ## 📊 Key Concepts Covered
 - Unsupervised learning on image data
 - Dimensionality reduction (PCA, LDA)
+- Cluster evaluation metrics
+- Visualization of high-dimensional data
