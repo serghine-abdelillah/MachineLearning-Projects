@@ -37,3 +37,5 @@ The notebook is divided into several key parts, each building toward understandi
 - **TensorFlow** / **Keras** (for dataset loading)
 
 ## 📊 Key Concepts Covered
+- Unsupervised learning on image data
+- Dimensionality reduction (PCA, LDA)
