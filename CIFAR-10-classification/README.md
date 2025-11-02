@@ -41,3 +41,5 @@ The notebook is divided into several key parts, each building toward understandi
 - Dimensionality reduction (PCA, LDA)
 - Cluster evaluation metrics
 - Visualization of high-dimensional data
+
+## 🧪 How to Run
