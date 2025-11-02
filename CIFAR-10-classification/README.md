@@ -49,9 +49,8 @@ git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
 
-Open the notebook:
-
+2. Open the notebook:
+```bash
 jupyter notebook Assignment-Solution.ipynb
-
-
-Run all cells sequentially to reproduce results.
+```
+3. Run all cells sequentially to reproduce results.
