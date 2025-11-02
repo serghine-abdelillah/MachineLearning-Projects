@@ -45,8 +45,8 @@ The notebook is divided into several key parts, each building toward understandi
 ## 🧪 How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/serghine-abdelillah/MachineLearning-Projects.git
+cd CIFAR-10-classification
 ```
 
 2. Open the notebook:
