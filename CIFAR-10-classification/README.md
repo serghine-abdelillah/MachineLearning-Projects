@@ -58,3 +58,4 @@ jupyter notebook Assignment-Solution.ipynb
 ## 📈 Results
 - Cluster separation improves with **PCA** and **LDA** preprocessing.
 - **Davies-Bouldin score** and confusion matrix help identify the best variant.
+- The best-performing model can be further enhanced with deeper feature extraction.
