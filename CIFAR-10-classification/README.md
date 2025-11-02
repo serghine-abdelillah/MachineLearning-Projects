@@ -56,3 +56,4 @@ jupyter notebook Assignment-Solution.ipynb
 3. Run all cells sequentially to reproduce results.
 
 ## 📈 Results
+- Cluster separation improves with **PCA** and **LDA** preprocessing.
