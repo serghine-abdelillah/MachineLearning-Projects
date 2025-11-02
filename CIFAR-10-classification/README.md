@@ -54,3 +54,5 @@ cd CIFAR-10-classification
 jupyter notebook Assignment-Solution.ipynb
 ```
 3. Run all cells sequentially to reproduce results.
+
+## 📈 Results
